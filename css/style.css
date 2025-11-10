@@ -3,15 +3,17 @@ body {
     ;
     color: #164194;
     background-color: white;
+    margin: 0%;
+    padding: 0%;
+    font-size: 1rem;
 }
 
 #nav1 {
-    order: -1;
     display: flex;
     color: white;
     background-color: #164194;
-    padding: 2px;
 }
+
 
 ul {
     display: flex;
@@ -21,7 +23,70 @@ ul {
 li {
     margin-right: 50px;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
+}
+
+#nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.18);
+
+}
+
+#logo {
+    padding-right: 100px;
+}
+
+select {
+    border: none;
+    background: transparent;
+    padding: 5px;
+    outline: none;
+    color: #164194;
+    text-transform: uppercase;
+}
+
+#barrap {
+
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+#barrap div {
+    display: flex;
+    justify-content: center;
+
+}
+
+#barrap form {
+    display: flex;
+}
+
+#pesquisa {
+    flex: 1;
+    width: 800px;
+    border-radius: 10px 0px 0px 10px;
+    padding: 13px;
+    border-right: none;
+}
+
+#barrap button {
+    width: 100px;
+    color: white;
+    padding: 13px;
+    background-color: #164194;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#banner {
+    margin-top: 0%;
+
 }
